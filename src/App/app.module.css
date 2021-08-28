@@ -1,0 +1,29 @@
+@media (min-width: 320px) {
+    .app {     
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .tableAndChart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+@media (min-width: 768px) {
+    .app {
+        display: block;
+      
+    
+    }
+    .tableAndChart{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+
+}
+
